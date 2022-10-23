@@ -9,7 +9,8 @@ This project rebuilds Google's beta XCFrameworks so they can be added as a depen
 ## Requirements
 
 * [iOS 13.0](https://wikipedia.org/wiki/IOS_13) or later.
-* [Xcode 14.0](https://developer.apple.com/xcode) or later.
+* [Xcode 13.3.1](https://developer.apple.com/xcode) or later.
+  * **Note:** Make sure BitCode is not enabled on your app target build setting (ENABLE_BITCODE = NO). 
 
 ## Add as a dependecy to your Swift Package
 
